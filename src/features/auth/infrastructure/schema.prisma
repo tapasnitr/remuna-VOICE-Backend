@@ -1,0 +1,9 @@
+model Devotee {
+  id        String   @id
+  name      String
+  email     String   @unique
+  password  String
+  status    String
+  dob       DateTime
+  createdAt DateTime @default(now())
+}

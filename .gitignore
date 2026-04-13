@@ -1,0 +1,14 @@
+node_modules/
+
+# ENV FILES
+.env*
+!.env.example
+
+# PROD BUILD
+dist/
+
+# LOCK FILES
+package-lock.json
+yarn.lock
+bun.lockb
+/src/generated/prisma
